@@ -58,7 +58,7 @@ public class MainActivity extends Activity{
         super.onCreate(savedInstanceState);
 
         database = FirebaseDatabase.getInstance();
-        myRef = database.getReference("motions");
+        myRef = database.getReference("your_database_name");
 
         Log.d(TAG, " Write to here" + myRef);
 
